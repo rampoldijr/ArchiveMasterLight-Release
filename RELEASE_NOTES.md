@@ -1,13 +1,16 @@
 # ArchiveMaster Light 1.0.0 — Release Notes
 
-**Initial Public Release**
+**Initial Public Release (Windows x64 & Windows ARM64)**
 
 ArchiveMaster Light 1.0.0 is the first public release of ArchiveMaster Light, a dedicated Windows desktop application designed to organize files into structured archive sets for long-term optical storage media (CD, DVD, Blu-ray, and M-DISC workflows).
+
+Native installers are provided for both **Windows x64** and **Windows ARM64**.
 
 ---
 
 ## Key Highlights
 
+- **Native Multi-Architecture Support:** Dedicated 64-bit builds for Windows x64 (Intel/AMD) and Windows ARM64 (Qualcomm Snapdragon X / Microsoft SQ).
 - **Ephemeral Single-Session Engine:** Operates without a persistent database or background tracking; state is kept in memory during the active session with automatic temporary file cleanup.
 - **250 GB Source Quota:** Tailored for optical media projects up to 250 GB with decimal unit formatting and real-time quota indicator.
 - **Pre-Build Capacity Gate:** Evaluates configured destinations, Safety Margins, and disc bin-packing feasibility prior to starting a build to prevent mid-operation failures.
@@ -19,17 +22,18 @@ ArchiveMaster Light 1.0.0 is the first public release of ArchiveMaster Light, a 
 
 ## Distribution & Verification
 
-- **Platform:** Windows 10 / 11 (64-bit x64)
-- **Installer File:** `ArchiveMaster Light-1.0.0-Setup-x64.exe`
-- **File Size:** `98,948,415 bytes` (~94.36 MB)
-- **SHA-256 Checksum:** `674d5facc355096db04c6fab8f6237527ca410d7d97a3bd4a3384b2e09d12f62`
+| Architecture | Installer Filename | File Size | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **Windows x64** | `ArchiveMaster Light-1.0.0-Setup-x64.exe` | 98,948,415 bytes (~94.36 MB) | `674d5facc355096db04c6fab8f6237527ca410d7d97a3bd4a3384b2e09d12f62` |
+| **Windows ARM64** | `ArchiveMaster Light-1.0.0-Setup-arm64.exe` | 105,138,617 bytes (~100.27 MB) | `47e0b1c8acd092797095b7c4f8acdcaef9257a25028c13a6f03537a5a75c0315` |
+
 - **Verification Manifest:** [`SHA256SUMS.txt`](SHA256SUMS.txt)
 
 ---
 
 ## Important Installation & Security Notice
 
-- **Unsigned Executable:** The installer is currently unsigned (distributed without an Authenticode certificate). Windows Defender SmartScreen will display an informational warning upon first launch.
+- **Unsigned Executables:** Both installers are currently unsigned (distributed without an Authenticode certificate). Windows Defender SmartScreen will display an informational warning upon first launch.
 - **Verification:** Always verify that the SHA-256 hash matches the published checksum before proceeding via *"More info"* → *"Run anyway"*.
 - **Licence:** ArchiveMaster Light is freeware provided under a proprietary licence. It is free to use but **not open source**. Source code is maintained separately in a private repository.
 

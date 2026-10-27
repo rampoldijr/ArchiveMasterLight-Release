@@ -4,7 +4,7 @@
 
 ArchiveMaster Light is a Windows desktop application designed to prepare structured archive sets for optical storage media, including CD, DVD, Blu-ray, and M-DISC workflows.
 
-**Free to use · Windows x64 · Version 1.0.0 (First Public Release)**
+**Free to use · Windows x64 & Windows ARM64 · Version 1.0.0 (First Public Release)**
 
 ---
 
@@ -18,18 +18,22 @@ Constructive feedback, reproducible bug reports, and usability suggestions are w
 
 ## Download & Installation
 
-The official 64-bit Windows installer is published exclusively on the [Releases](https://github.com/rampoldijr/ArchiveMasterLight-Release/releases) page of this repository.
+The official 64-bit Windows installers are published exclusively on the [Releases](https://github.com/rampoldijr/ArchiveMasterLight-Release/releases) page of this repository.
 
-- **Current Release:** ArchiveMaster Light 1.0.0
-- **Installer Filename:** `ArchiveMaster Light-1.0.0-Setup-x64.exe`
-- **File Size:** `98,948,415 bytes` (~94.36 MB)
-- **SHA-256 Checksum:** `674d5facc355096db04c6fab8f6237527ca410d7d97a3bd4a3384b2e09d12f62`
-- **Direct Link:** [Download from Releases](https://github.com/rampoldijr/ArchiveMasterLight-Release/releases/tag/v1.0.0)
+### Available Installers:
+
+| Target System | Processor Architecture | Installer Filename | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **Windows x64** | Intel / AMD (Standard PCs) | `ArchiveMaster Light-1.0.0-Setup-x64.exe` | `674d5facc355096db04c6fab8f6237527ca410d7d97a3bd4a3384b2e09d12f62` |
+| **Windows ARM64** | Snapdragon X / Surface ARM | `ArchiveMaster Light-1.0.0-Setup-arm64.exe` | `47e0b1c8acd092797095b7c4f8acdcaef9257a25028c13a6f03537a5a75c0315` |
+
+- **Official Release Page:** [ArchiveMaster Light 1.0.0 Release](https://github.com/rampoldijr/ArchiveMasterLight-Release/releases/tag/v1.0.0)
+- **Verification Manifest:** [`SHA256SUMS.txt`](SHA256SUMS.txt)
 
 For detailed verification and installation instructions, see [INSTALLATION.md](INSTALLATION.md).
 
 > **Important Security Notice (Unsigned Executable):**  
-> The installer executable is currently unsigned (distributed without an Authenticode certificate). When launching the installer for the first time, Windows Defender SmartScreen may display an informational warning (*"Windows protected your PC"*). Verify the SHA-256 hash using `Get-FileHash` before proceeding by clicking **"More info"** and then **"Run anyway"**.
+> The installer executables are currently unsigned (distributed without an Authenticode certificate). When launching the installer for the first time, Windows Defender SmartScreen may display an informational warning (*"Windows protected your PC"*). Verify the SHA-256 hash using `Get-FileHash` before proceeding by clicking **"More info"** and then **"Run anyway"**.
 
 ---
 
